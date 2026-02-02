@@ -32,6 +32,6 @@ class Car(models.Model):
 
     class Meta:
         ordering = ["model"]
-    
+
     def __str__(self) -> str:
         return self.model
